@@ -34,7 +34,7 @@ This Problem Set will be graded out of 20 points and is worth 8% of your total g
             Testing
         </td>
         <td>
-            3 points
+            4 points
         </td>
     </tr>
     <tr>
@@ -57,9 +57,9 @@ This Problem Set will be graded out of 20 points and is worth 8% of your total g
     <td>
         Points
         <ul>
-            <li> 1 points
-            <li> 1 points
-            <li> 3 points
+            <li> 1 point
+            <li> 1 point
+            <li> 2 points
         </ul>
     </td>
     </tr>
