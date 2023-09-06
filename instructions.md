@@ -115,13 +115,13 @@ You may use anything in the Python Standard Library, NumPy, and Matplotlib for t
 
 1. The constructor should take a reduced mass, a force constant, an initial separation, and an initial velocity. These should all be stored as instance attributes.
 
-1. The class should have instance methods `potential_energy`, `kinetic_energy`. These methods should not take any parameters besides `self`. They should use the data associated with the instance. The calculated values for these should be **returned**.
+2. The class should have instance methods `potential_energy`, `kinetic_energy`. These methods should not take any parameters besides `self`. They should use the data associated with the instance. The calculated values for these should be **returned**.
 
-1. Use your methods from step 2 to add calculation of  $\omega$, $A$, and $\phi$ to the constructor. Store these as instance attributes according to the equations given above.
+3. Add calculation of  $\omega$, $A$, and $\phi$ to the constructor. Store these as instance attributes according to the equations given above.
 
-1. Add an instance method for computing the position at a certain time and an instance method for computing the velocity at a certain time using the analytical solution. Name these methods `analytical_position` and `analytical_velocity`. Note that these values only depend on model constants (`mass`, `k`, `amplitude`, etc), and not on separation distance or velocity.
+4. Add an instance method for computing the position at a certain time and an instance method for computing the velocity at a certain time using the analytical solution. Name these methods `analytical_position` and `analytical_velocity`. Note that these values only depend on model constants (`mass`, `k`, `amplitude`, etc), and not on separation distance or velocity.
 
-1. Add a module `test_diatomic.py`. Create tests to
+5. Add a module `test_diatomic.py`. Create tests to
     - Check that your object is propery constructed.
     - Check the `kinetic_energy` and the `potential_energy` methods. 
     - Check the `analytical_position` and `analytical velocity` method. 
