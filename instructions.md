@@ -97,7 +97,7 @@ $$A=\sqrt{2\frac{E_{\text{total}}}{k}}$$
 $$\omega = \sqrt{\frac{k}{\mu}}$$
 
 and $\phi$ is a phase constant that depends on the initial separation distance
-and velocity, namely $x(0) = A \cos(\phi)$ and $v(0) = A \omega \sin(\phi)$.
+and velocity, namely $x(0) = A \cos(\phi)$ and $v(0) = - A \omega \sin(\phi)$.
 You can get an expression for $\phi$ using these equations. **Hint** -
 You can take a ratio to get $\phi$ as an expression of a tangent function. 
 **Hint 2** - When using `atan` functions, `atan2` may be useful to account for signs.
