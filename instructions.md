@@ -1,4 +1,4 @@
-# Week 2 Problem Set
+# Homework 1: Harmonic Oscillator
 
 For this homework set, you will be writing a Python class to represent a harmonic oscillator. 
 The concept of a harmonic oscillator plays a crucial role in both classical and quantum physics. 
@@ -22,7 +22,7 @@ a classical system also known as a "mass on a spring."
 This system is governed by Hooke's Law,
 which states that the force exerted by the spring, $F(x)$,
 is directly proportional to the displacement $x$ from its equilibrium position
-and inversely proportional to the spring constant $k$:
+and proportional to the spring constant $k$:
 
 $$
 F(x) = -kx
@@ -80,8 +80,23 @@ $$
 E_{\text{total}} = K(v) + U(x)
 $$
 
-For a classical harmonic oscillator,
-the position $x(t)$ and velocity $v(t)$ as functions of time $t$ are described by:
+By considering Newton's equations of motion (particulary the second law), 
+we can write a differential equation describing the behavior of a harmonic oscillator.
+
+$$
+F = m a = -k x
+$$
+
+$$
+F = m \frac{d^2 x(t)}{dt^2} = -k x(t)
+$$
+
+$$
+\frac{d^2 x(t)}{d t^2} + \frac{k}{m} x(t) = 0
+$$
+
+This equation has an **exact solution** that can be written in terms of trigonometric functions.
+The position $x(t)$ and velocity $v(t)$ as functions of time $t$ are described by:
 $$
 x(t) = A \cos(\omega t + \phi)
 $$
@@ -101,7 +116,6 @@ and velocity, namely $x(0) = A \cos(\phi)$ and $v(0) = - A \omega \sin(\phi)$.
 You can get an expression for $\phi$ using these equations. **Hint** -
 You can take a ratio to get $\phi$ as an expression of a tangent function. 
 **Hint 2** - When using `atan` functions, `atan2` may be useful to account for signs.
-
 
 ## Specifications
 
