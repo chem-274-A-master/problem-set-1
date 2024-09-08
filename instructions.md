@@ -1,5 +1,22 @@
 # Homework 1: Harmonic Oscillator
 
+<div style="background-color: #fff3cd; color: #856404; padding: 15px; margin-bottom: 25px; border: 1px solid #ffeeba; border-radius: 4px;">
+  
+  <strong>Showing your work</strong> 
+  <p>
+    Your homework assignments should show incremental development with at least two different commits over two different days of work. Assignments that do not show incremental development will incur a 5% penalty.
+  </p>
+
+  <strong>AI Acceptable Use</strong>
+  <p>
+"AI" refers to Artificial Intelligence and includes tools like ChatGPT, Claude, GitHub Copilot, and other language models or AI-powered assistants. AI tools may be used to research ideas or clarify concepts. However, they should not be used to generate code or complete assignments. All submitted work must reflect your own understanding and effort.
+</p>
+<p>
+If you use AI in this assignment, include a statement in your README reflection on what AI you used and how you used it.
+
+</div>
+
+
 For this homework set, you will be writing a Python class to represent a harmonic oscillator. 
 The concept of a harmonic oscillator plays a crucial role in both classical and quantum physics. 
 In the context of chemistry, the classical harmonic oscillator serves as a useful model for describing the equilibrium behavior of molecular bonds.
@@ -166,15 +183,17 @@ Create a Makefile which has the following targets:
 ### Documentation and Reflection
 Create a `README.md` file in your repository. The README should serve two purposes:
 
-**Project Description**: Provide a detailed description of what this project is all about. Explain the purpose of each file, how the code is structured, and most importantly, how to use the Makefile. Assume your audience is someone from GitHub who is not familiar with the assignment or what your repository accomplishes.
+**Project Description**: Provide a detailed description of what this project is all about. Explain the purpose of the repository, how the code is structured, and how to use the Makefile. You should also include answers to the reflection questions and images as appropriate. Assume your audience is someone from GitHub who is not familiar with the assignment or what your repository accomplishes.
 
-**Reflection Questions**: Answer the following questions in detail, and include them in your README.
+**Reflection Questions**: Answer the following questions in detail, and include them in your README. Write your responses in paragraph form.
 
 1. Custom Error: Describe the custom error that you implemented. Why did you choose this specific error, and how is it relevant to the behavior of a diatomic molecule modeled by a harmonic oscillator?
 
 1. Class Limitations and Design Choices: Discuss any limitations you think exist in your Diatomic class. Do you feel like different design choices could have been made to improve the class? If so, what are they?
 
 1. Pattern Observations: What patterns have you observed in your distance and velocity plots? Can you explain why these patterns exist based on the underlying physics?
+
+1. AI use statement. Did you use AI in this assignment? What AI and how? If you did not use AI, specify that you did not use AI.
 
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/x-mathjax-config">
