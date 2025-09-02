@@ -84,12 +84,14 @@ kinetic energy,
 and the total energy of the system.
 
 The kinetic energy $K(v)$ is given by:
+
 $$
 K(v) = \frac{1}{2} \mu v^2
 $$
 
 The total energy $E_{\text{total}}$ of the harmonic oscillator is the sum of the kinetic and potential energies,
 and will remain constant:
+
 $$
 E_{\text{total}} = K(v) + U(x)
 $$
@@ -120,8 +122,11 @@ $$
 
 In these equations,
 $A$ is the maximum amplitude,
-calculated as 
-$$A=\sqrt{2\frac{E_{\text{total}}}{k}}$$
+calculated as
+
+$$
+A = \sqrt{2\,\frac{E_{\text{total}}}{k}}
+$$
 
 $$\omega = \sqrt{\frac{k}{\mu}}$$
 
