@@ -7,13 +7,10 @@
     Your homework assignments should show incremental development with at least two different commits over two different days of work. Assignments that do not show incremental development will incur a 5% penalty.
   </p>
 
-  <strong>AI Acceptable Use</strong>
+  <strong>Reminder: No AI Tools</strong>
   <p>
-"AI" refers to Artificial Intelligence and includes tools like ChatGPT, Claude, GitHub Copilot, and other language models or AI-powered assistants. AI tools may be used to research ideas or clarify concepts. However, they should not be used to generate code or complete assignments. All submitted work must reflect your own understanding and effort.
-</p>
-<p>
-If you use AI in this assignment, include a statement in your README reflection on what AI you used and how you used it.
-
+According to MSSE Department policy, use of AI tools is not permitted in Chem 274A. Do not use generative AI tools (e.g., ChatGPT, Claude, GitHub Copilot, or similar) for any part of this assignment, including planning, coding, or writing.
+  </p>
 </div>
 
 
@@ -183,7 +180,7 @@ Create a Makefile which has the following targets:
 ### Documentation and Reflection
 Create a `README.md` file in your repository. The README should serve two purposes:
 
-**Project Description**: Provide a detailed description of what this project is all about. Explain the purpose of the repository, how the code is structured, and how to use the Makefile. You should also include answers to the reflection questions and images as appropriate. Assume your audience is someone from GitHub who is not familiar with the assignment or what your repository accomplishes.
+**Project Description**: Provide a detailed description of what this project is all about. Explain the purpose of the repository, how the code is structured, and how to use the Makefile. You should also include answers to the reflection questions and images as appropriate. Assume your audience is someone from GitHub who is not familiar with the assignment or what your repository accomplishes. DO NOT put a list of your files in the README of your repository.
 
 **Reflection Questions**: Answer the following questions in detail, and include them in your README. Write your responses in paragraph form.
 
@@ -193,10 +190,6 @@ Create a `README.md` file in your repository. The README should serve two purpos
 
 1. Pattern Observations: What patterns have you observed in your distance and velocity plots? Can you explain why these patterns exist based on the underlying physics?
 
-1. AI use statement. Did you use AI in this assignment? What AI and how? If you did not use AI, specify that you did not use AI.
 
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-    </script>
 
+    
